@@ -6,6 +6,7 @@
 1.	 Document Ingestion and Preprocessing: là quá trình thu thập, xử lý và nạp các tài liệu vào một hệ thống để chúng sẵn sàng cho việc tìm kiếm và phân tích. Gồm các bước:
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/754b1efc-9d6c-4e4f-88da-7738ce2fd3f5" />
+
 + Đầu tiên ta cần chuẩn bị dữ liệu (pdf, doc, website, …)
 + Chia data thành các chunks. Lý do cho việc này là để giới hạn về kích thước do model không thể xử lý file quá lớn, tăng cường hiệu quả truy xuất vì khi chia nhỏ data thành các chunks có kích thước vừa phải thì hệ thống RAG có thể tìm được thông tin cần thiết dễ dàng hơn trong mỗi chunk, cuối cùng là tiết kiệm chi phí và tăng tốc độ tính toán
 + Sử dụng embedding model để ánh xạ mỗi chunks đó qua một vector embedding
