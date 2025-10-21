@@ -52,3 +52,11 @@ Các kiểu prompting:
 2.	Few-shot prompting: cải thiện model với các mẫu huấn luyện thông qua prompt, tránh retrain lại từ đầu. Ví dụ:
 
 <img width="975" height="553" alt="image" src="https://github.com/user-attachments/assets/7e58d939-e6f6-4eab-8f45-38143a33c813" />
+
+Chain-of-thought prompting : là sự kết hợp giữa few-shot learning và reasoning (suy luận):
+
+<img width="975" height="353" alt="image" src="https://github.com/user-attachments/assets/69e8a780-511a-4190-a498-5ca915cfd901" />
+
+Source : https://www.youtube.com/watch?v=AFE6x81AP4k
+
+Thay vì chỉ đưa một cặp Q and A rồi một Q khác vào thì ta sẽ đưa thêm R (đoạn text mô tả quá trình suy luận để giải quyết vấn đề)  vào cặp Q and A, model sẽ học được các suy luận từ đó và tạo ra câu trả lời tốt hơn
