@@ -1,6 +1,6 @@
-# [cite_start]SEMANTIC CHUNKING [cite: 1]
+# [cite_start] SEMANTIC CHUNKING [cite: 1]
 
-## [cite_start]Khái niệm về semantic chunking: [cite: 2]
+## [cite_start] Khái niệm về semantic chunking: [cite: 2]
 
 [cite_start]Là một quá trình để chia các documents thành các chunks dựa trên độ tương đồng về ngữ nghĩa, không phải bởi số token hay số dòng[cite: 3].
 
