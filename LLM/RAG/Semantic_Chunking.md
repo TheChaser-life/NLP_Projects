@@ -1,8 +1,8 @@
 # SEMANTIC CHUNKING
 
 -	Khái niệm về semantic chunking:
-Là một quá trình để chia các documents thành các chunks dựa trên độ tương đồng về ngữ nghĩa, không phải bởi số token hay số dòng
-Điều này giúp tăng cường sự mạnh mẽ của hệ thống RAG do mỗi chunk giờ đây sẽ giàu thông tin hơn, làm cho việc sinh phản hồi tốt và chính xác hơn
+là một quá trình để chia các documents thành các chunks dựa trên độ tương đồng về ngữ nghĩa, không phải bởi số token hay số dòng. Điều này giúp tăng cường sự mạnh mẽ của hệ thống RAG do mỗi chunk giờ đây sẽ giàu thông tin hơn, làm cho việc sinh phản hồi tốt và chính xác hơn
+
 -	Các bước hoạt động:
 + Documents được chia thành các đơn vị nhỏ hơn thường là một câu
 + Mỗi câu sẽ được biến đổi sang vector (sentence embedding)
