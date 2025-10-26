@@ -4,11 +4,11 @@
 là một quá trình để chia các documents thành các chunks dựa trên độ tương đồng về ngữ nghĩa, không phải bởi số token hay số dòng. Điều này giúp tăng cường sự mạnh mẽ của hệ thống RAG do mỗi chunk giờ đây sẽ giàu thông tin hơn, làm cho việc sinh phản hồi tốt và chính xác hơn
 
 -	Các bước hoạt động:
-+ Documents được chia thành các đơn vị nhỏ hơn thường là một câu
-+ Mỗi câu sẽ được biến đổi sang vector (sentence embedding)
-+ Tính độ tương đồng (similarity) giữa các embedding gần nhau (câu 1 và câu 2, câu 2 và câu 3, …)
-+ Merge các embedding gần nhau lại nếu similarity giữa chúng vượt qua một ngưỡng nhất định (threshold)
-+ Hình thành các chunks sau khi merge. Ví dụ [s1,s2] -> chunk1, [s3] -> chunk2
+1. Documents được chia thành các đơn vị nhỏ hơn thường là một câu
+2. Mỗi câu sẽ được biến đổi sang vector (sentence embedding)
+3. Tính độ tương đồng (similarity) giữa các embedding gần nhau (câu 1 và câu 2, câu 2 và câu 3, …)
+4. Merge các embedding gần nhau lại nếu similarity giữa chúng vượt qua một ngưỡng nhất định (threshold)
+5. Hình thành các chunks sau khi merge. Ví dụ [s1,s2] -> chunk1, [s3] -> chunk2
 
 -	Ví dụ về semantic chunking
  
