@@ -45,7 +45,22 @@ Lý do sử dụng Query Decompositon:
 Cách hoạt động:
 
 <img width="975" height="782" alt="image" src="https://github.com/user-attachments/assets/989aba03-39a2-4dc3-aa7f-bb6fb2f7fa7d" />
- 
+
+Ví dụ sử dụng:
+
++ Prompt yêu cầu model tách ra những câu hỏi nhỏ
+<img width="1410" height="740" alt="image" src="https://github.com/user-attachments/assets/caf47c64-d6bc-438e-9b66-94c115136ca2" />
+
++ Hàm lấy các câu hỏi từ response của model
+<img width="723" height="278" alt="image" src="https://github.com/user-attachments/assets/4be6d9de-47bf-4233-a862-223483533d17" />
+
++ Tạo Q&A prompt và RAG chain
+<img width="626" height="532" alt="image" src="https://github.com/user-attachments/assets/d18a7d8a-6555-4f91-86e5-9df395864342" />
+
++ Đưa từng câu hỏi nhỏ tách ra từ query của user vào RAG chain và gộp các câu trả lời với nhau
+
+<img width="590" height="331" alt="image" src="https://github.com/user-attachments/assets/64e9125d-4655-4b1a-8ff1-97b849f44497" />
+
 Nhược điểm: gọi LLM quá nhiều dẫn đến phản hồi chậm và chi phí cao
 
 -	Hypothetical Document Embeddings (HyDE)
