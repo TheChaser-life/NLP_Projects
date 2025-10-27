@@ -8,7 +8,7 @@ Query Enhancement là một kĩ thuật để tăng cường hoặc reformat l�
 -	Query Expansion:
 Ví dụ về Query Expansion:
  
-<img width="975" height="408" alt="image" src="https://github.com/user-attachments/assets/856f86ec-d39e-41be-a405-cfc47e24109d" />
+<img width="975" height="408" alt="image" src="https://github.com/user-attachments/assets/707ff395-0d64-419b-96f1-5f0615c13031" />
 
 Cách hoạt động: sử dụng LLM + prompt để tăng cường query sau đó mới đưa vào retriever
   
