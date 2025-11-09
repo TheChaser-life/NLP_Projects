@@ -1,0 +1,34 @@
+from langchain_community.vectorstores import FAISS
+from langchain_openai import OpenAIEmbeddings
+from langchain_core.documents import Document
+
+class VectorStore:
+
+    def __init__(self):
+        self.embedding = OpenAIEmbeddings()
+        self.vectorstore = None
+        self.retriever = None
+
+    def create_vectorstore(self, documents):
+        """
+        Create vector store from documents
+        
+        Args:
+            documents: List of documents to embed
+        """
+        self.vectorstore = FAISS.from_documents(documents, self.embedding)
+        self.retriever = self.vectorstore.as_retriever()
+    
+    def get_retriever(self):
+        """
+        Get the retriever instance
+        
+        Returns:
+            Retriever instance
+        """
+        if self.retriever is None:
+            raise ValueError("Vector store not initialized. Call create_vectorstore first.")
+        return self.retriever
+  
+    def retrieve(self, query):
+        return self.retriever.invoke(query)
