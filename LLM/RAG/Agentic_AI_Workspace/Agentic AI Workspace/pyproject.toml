@@ -1,0 +1,25 @@
+[project]
+name = "agentic-ai-workspace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arxiv>=2.2.0",
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.12.0",
+    "langchain>=1.0.2",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.1",
+    "langchain-experimental>=0.0.42",
+    "langchain-groq>=1.0.0",
+    "langchain-openai>=1.0.1",
+    "langchain-tavily>=0.2.13",
+    "langgraph>=1.0.1",
+    "langgraph-cli[inmem]>=0.4.4",
+    "langgraph-supervisor>=0.0.30",
+    "langsmith>=0.4.38",
+    "openai>=2.6.1",
+    "pandas>=2.3.3",
+    "wikipedia>=1.4.0",
+]

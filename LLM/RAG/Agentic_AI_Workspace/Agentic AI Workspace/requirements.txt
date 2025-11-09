@@ -1,0 +1,16 @@
+langchain
+langgraph
+langchain-core
+langchain-community
+dotenv
+langchain-openai
+langchain-groq
+arxiv
+wikipedia
+langgraph-cli[inmem]
+faiss-cpu
+langchain_tavily
+langgraph_supervisor
+langchain_experimental
+langsmith
+openai
